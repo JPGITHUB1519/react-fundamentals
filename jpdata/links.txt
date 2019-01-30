@@ -1,0 +1,3 @@
+Course Text Version:
+
+    https://github.com/tylermcginnis/react-fundamentals/blob/master/Notes.md
