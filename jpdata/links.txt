@@ -4,3 +4,6 @@ Course Text Version:
 
 When React Re-Render?
     https://lucybain.com/blog/2017/react-js-when-to-rerender/
+
+Stateless Components VS Stateless Funcional Components VS Functional Components
+    https://tylermcginnis.com/functional-components-vs-stateless-functional-components-vs-stateless-components/

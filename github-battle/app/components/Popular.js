@@ -1,5 +1,6 @@
 var React = require('react');
 var PropTypes = require('prop-types');
+var api = require('../utils/api');
 
 // Stateless Functional Components
 function SelectLanguage(props) {
@@ -31,11 +32,16 @@ class Popular extends React.Component {
     constructor (props) {
         super(props);
         this.state = {
-            selectedLanguage: 'All'
+            selectedLanguage: 'All',
+            repos: null
         };
 
         // Taking care of the this keyword will always be the component instance
         this.updateLanguage = this.updateLanguage.bind(this);
+    }
+
+    componentDidMount() {
+        api.fetchPopularRepos();
     }
 
     updateLanguage(lang) {
