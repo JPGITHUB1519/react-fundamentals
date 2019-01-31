@@ -36,11 +36,7 @@ class Users extends React.Component {
 }
 
 Users.propTypes = {
-    //'list': PropTypes.arrayOf(PropTypes.object),
-    'list': PropTypes.arrayOf(PropTypes.shape({
-        name: PropTypes.string.isRequired,
-        friend: PropTypes.bool.isRequired,
-    })),
+    'list': PropTypes.array.isRequired,
 }
   
 ReactDOM.render(
