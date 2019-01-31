@@ -1,0 +1,6 @@
+- You should always add PropType validation to your component
+
+- Implicit Binding
+- Explicit Binding
+- new Binding
+- window Binding
