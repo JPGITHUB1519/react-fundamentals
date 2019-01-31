@@ -1,3 +1,6 @@
 Course Text Version:
 
     https://github.com/tylermcginnis/react-fundamentals/blob/master/Notes.md
+
+When React Re-Render?
+    https://lucybain.com/blog/2017/react-js-when-to-rerender/
