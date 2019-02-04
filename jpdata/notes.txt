@@ -6,3 +6,7 @@
 - window Binding
 
 - When you have a simple component without state and only return some UI and have some props, use Stateless Functional Components
+
+
+Trick to see the state on the screen
+    { JSON.stringify(this.state.repos, 2, null)}

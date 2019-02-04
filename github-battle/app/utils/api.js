@@ -2,23 +2,15 @@ var axios = require('axios');
 
 module.exports = {
     fetchPopularRepos: function(language) {
-        var encodedURI = 'https://api.github.com/search/repositories?q=stars:>1+language:&sort=stars&order=desc&type=Repositories';
+        var encodedURI = 'https://api.github.com/search/repositories?q=stars:>1+language:' +  language + '&sort=stars&order=desc&type=Repositories';
+        console.log("hey");
 
-        return axios.get(encodedURI, {headers: {
-            //"Authorization": "token 54b009c740aa980502a1a1089416dc63b2dc5065" 
-        }})
+        return axios.get(encodedURI)
         .then(function(response) {
             return response.data.items;
+        })
+        .catch(function(error) {
         });
-
-        // fetch("https://api.github.com/search/repositories?q=stars:>1+language:&sort=stars&order=desc&type=Repositories")
-        // .then(function(data) {
-        //     console.log(data.json());
-        //     console.log("hey");
-        // })
-        // .catch(function(error) {
-        //     // If there is any error you will catch them here
-        //     console.log(error);
-        // });
+        
     }
 }
