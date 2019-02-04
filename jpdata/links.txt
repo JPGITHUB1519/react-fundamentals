@@ -7,3 +7,6 @@ When React Re-Render?
 
 Stateless Components VS Stateless Funcional Components VS Functional Components
     https://tylermcginnis.com/functional-components-vs-stateless-functional-components-vs-stateless-components/
+
+React Developers Tools:
+    https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=es

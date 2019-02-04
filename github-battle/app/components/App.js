@@ -11,7 +11,6 @@ var Battle = require('./Battle')
 class App extends React.Component {
     render() {
         return (
-        
             <Router>
                 <div className='container'>
                     <Nav />
@@ -24,8 +23,7 @@ class App extends React.Component {
                         }} />
                     </Switch>
                 </div>
-            </Router>
-            
+            </Router> 
         )
     }
 }
