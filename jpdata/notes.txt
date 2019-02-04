@@ -10,3 +10,12 @@
 
 Trick to see the state on the screen
     { JSON.stringify(this.state.repos, 2, null)}
+
+
+To avoid cannot Get <route> error on browser:
+
+    Add this property on webpack:
+        devServer: {
+            historyApiFallBack: true
+        },
+    This will redirect all the routes to /
