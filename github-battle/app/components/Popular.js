@@ -1,6 +1,7 @@
 var React = require('react');
 var PropTypes = require('prop-types');
 var api = require('../utils/api');
+var Loading = require('./Loading');
 
 // Stateless Functional Components
 function SelectLanguage(props) {
@@ -100,7 +101,7 @@ class Popular extends React.Component {
                     onSelect={this.updateLanguage}
                 />
                 {!this.state.repos
-                    ? <p>LOADING!</p>
+                    ? <Loading speed={250}/>
                     : <RepoGrid repos={this.state.repos} />}
             </div>
         )
