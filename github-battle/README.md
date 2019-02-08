@@ -1,0 +1,14 @@
+# Github Battle App
+
+## Host
+[https://github-battle-23a33.firebaseapp.com/popular](https://github-battle-23a33.firebaseapp.com/popular)
+
+## How to run it locally?
+
+npm start
+
+## How to deploy to production
+
+npm firebase-init
+npm deploy
+
